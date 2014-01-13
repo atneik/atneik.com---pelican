@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Aniket Handa'
 SITENAME = u'Aniket Handa'
-SITEURL = ''
+SITEURL = 'http://blog.atneik.com'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -19,6 +19,6 @@ TRANSLATION_FEED_ATOM = None
 SOCIAL = (('Facebook', 'http://fb.com/atneik'),)
 
 DEFAULT_PAGINATION = 10
-THEME = '/Users/aniket/dev/github/atneik.com---pelican-copy/theme/bootstrap2'
+THEME = '/Users/aniket/dev/github/atneik.com---pelican/theme/ANK'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
