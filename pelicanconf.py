@@ -15,16 +15,10 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-# Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),)
-
 # Social widget
 SOCIAL = (('Facebook', 'http://fb.com/atneik'),)
 
 DEFAULT_PAGINATION = 10
-THEME = "/Users/aniket/dev/github/atneik.com---pelican/pelican-bootstrap3"
-
+THEME = '/Users/aniket/dev/github/atneik.com---pelican-copy/theme/bootstrap2'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
