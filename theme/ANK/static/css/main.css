@@ -17,14 +17,14 @@ body{
 	color:rgb(50,54,59);
 	font-weight:300;
 	font-size:16px;
-	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
-	background: url(../img/bgs/bg_dark_03.png) repeat;
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
 a{
-	color:rgb(222,222,222);
+	color:rgb(100,100,100);
 	text-decoration: none;
 	cursor: pointer;
 	
@@ -291,9 +291,7 @@ header .sticky-nav {
 	
 	z-index: 1001;
 	
-	-webkit-box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
-	-moz-box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
-	box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
+	
 }
 
 header .sticky-nav.stuck {
@@ -301,6 +299,11 @@ header .sticky-nav.stuck {
 	top: 0;
 	left: 0;
 	z-index: 1001;
+	
+	-webkit-transition: box-shadow 0.25s ease-in-out 0;
+    -moz-transition: box-shadow 0.25s ease-in-out 0;
+    -o-transition: box-shadow 0.25s ease-in-out 0s;
+    transition: box-shadow 0.25s ease-in-out 0;
 }
 
 header .blue{
@@ -431,6 +434,7 @@ nav#menu {
 nav#menu #menu-nav {
 	margin: 0;
 	padding: 0;	
+	font-family: 'Titillium Web', sans-serif;
 }
 
 nav#menu #menu-nav li {
@@ -446,7 +450,6 @@ nav#menu #menu-nav li:first-child {
 }
 
 nav#menu #menu-nav li a {
-	color: rgb(222,222,222);
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 60px;
@@ -455,10 +458,10 @@ nav#menu #menu-nav li a {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-decoration: none;
-	
-	opacity: 1;
-	filter: alpha(opacity=100);
-	
+	/*
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	*/
 	-webkit-transition: opacity 0.25s ease-in-out 0s;	
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
@@ -489,6 +492,7 @@ FOR BLOG
 nav#menu #menu-nav-blog {
 	margin: 0;
 	padding: 0;	
+	font-family: 'Titillium Web', sans-serif;
 }
 
 nav#menu #menu-nav-blog li {
@@ -504,7 +508,6 @@ nav#menu #menu-nav-blog li:first-child {
 }
 
 nav#menu #menu-nav-blog li a {
-	color: rgb(222,222,222);
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 60px;
@@ -513,16 +516,15 @@ nav#menu #menu-nav-blog li a {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-decoration: none;
-	
-	opacity: 1;
-	filter: alpha(opacity=100);
-	
+	/*
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	*/
 	-webkit-transition: opacity 0.25s ease-in-out 0s;	
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
 		    transition: opacity 0.25s ease-in-out 0s;	
 }
-	
 
 nav#menu #menu-nav-blog blue li a,
 nav#menu #menu-nav-blog blue li.current a,
@@ -630,6 +632,14 @@ nav#menu #menu-nav-blog li a:hover{
 	z-index: 99;
 	background: url(../img/bgs/bg_06.png) repeat;
 	
+}
+
+.page2 {
+	padding:0;
+	margin: 0;
+	padding-top: 50px;
+	position: relative;
+	z-index: 99;
 }
 
 
@@ -798,7 +808,10 @@ nav#menu #menu-nav-blog li a:hover{
 	margin-bottom: 25px;
 	cursor: pointer;
 	
-	box-shadow: 0 0 8px rgb(0, 0, 0);
+	border-color: black;
+	border-bottom: 100px;
+	
+	box-shadow: 0px 0px 8px rgb(0, 0, 0);
 	-webkit-box-shadow: 0 0 8px rgb(0, 0, 0);
 	-moz-box-shadow: 0 0 8px rgb(0, 0, 0);
 }
@@ -876,6 +889,20 @@ footer {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	text-align: center;
+	z-index: 99;
+	
+	font-family: 'Titillium Web', sans-serif;
+	
+	-webkit-box-shadow: 0px -5px 0px rgb(100, 100, 100);
+	-moz-box-shadow: 0 -5px 0px rgb(100, 100, 100);
+	box-shadow: 0 -5px 0px rgb(100, 100, 100);
+}
+
+footer2 {
+	position: absolute;
+	width: 100%;
+	height: auto;
 	background: rgb(50,54,59);
 	background: url(../img/bgs/bg_dark_03.png) repeat;
 	text-align: center;
@@ -934,7 +961,7 @@ footer .credits a{
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: url(../img/logo.svg) no-repeat;
+	background: url(../img/logo2.svg) no-repeat;
 	
 	opacity: 0;
 	filter: alpha(opacity=0);
