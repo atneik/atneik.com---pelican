@@ -22,3 +22,6 @@ DEFAULT_PAGINATION = 10
 THEME = '/Users/aniket/dev/github/atneik.com---pelican/theme/ANK'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DISQUS_SITENAME = 'atneik'
+GITHUB_URL = 'http://github.com/atneik'

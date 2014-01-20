@@ -98,8 +98,8 @@ hr {
 }
 
 input, button, select, textarea {
-	font-weight: 300;
-	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
 	outline: 0;
 }
 
@@ -183,6 +183,14 @@ pre code {
 ================================================== */
 
 h1,
+h2{
+	margin:0 0 20px 0;
+	font-weight:100;
+	font-family: 'Roboto', sans-serif;
+	font-style:italic;
+	line-height:1.5em;
+	color: inherit;
+}
 h2,
 h3,
 h4,
@@ -190,7 +198,7 @@ h5,
 h6{
 	margin:0 0 20px 0;
 	font-weight:300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height:1.5em;
 	color: inherit;
 }
@@ -434,7 +442,7 @@ nav#menu {
 nav#menu #menu-nav {
 	margin: 0;
 	padding: 0;	
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav#menu #menu-nav li {
@@ -492,7 +500,7 @@ FOR BLOG
 nav#menu #menu-nav-blog {
 	margin: 0;
 	padding: 0;	
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav#menu #menu-nav-blog li {
@@ -535,6 +543,12 @@ nav#menu #menu-nav-blog blue li a:hover{
 nav#menu #menu-nav-blog li a:hover{
 	opacity: 0.65;
 	filter: alpha(opacity=65);
+}
+
+article {
+
+	margin-bottom: 50px;
+	
 }
 
 /* ==================================================
@@ -585,8 +599,8 @@ nav#menu #menu-nav-blog li a:hover{
 	display: none;
 	text-align: center;
 	width: 100%;
-	background: url(../img/bgs/bg_dark_03.png) repeat;	
-	
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(255,255,255,0.9);
 	position: relative;
 	float: left;
 	z-index: 9999;
@@ -596,7 +610,7 @@ nav#menu #menu-nav-blog li a:hover{
 
 #navigation-mobile li {
 	list-style: none;
-	border-top: 2px solid rgb(0,0,0);
+	border-top: 2px solid rgb(200,200,200);
 	text-transform: uppercase;
 	padding: 20px 0;
 	color: rgb(0,0,0);
@@ -606,16 +620,16 @@ nav#menu #menu-nav-blog li a:hover{
 
 #navigation-mobile li:last-child {
 
-	-webkit-box-shadow: 0 3px 5px rgb(0, 0, 0);
-	-moz-box-shadow: 0 3px 5px rgb(0, 0, 0);
-	box-shadow: 0 3px 5px rgb(0, 0, 0);
+	-webkit-box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
+	-moz-box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
+	box-shadow: 0 3px 5px rgba(125, 125, 125, 0.9);
 	
 }
 
 #navigation-mobile li a{
 	display: block;
 	font-size: 16px;
-	color: rgb(222,222,222);
+	color: rgb(100,100,100);
 	
 }
 
@@ -892,7 +906,7 @@ footer {
 	text-align: center;
 	z-index: 99;
 	
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	
 	-webkit-box-shadow: 0px -5px 0px rgb(100, 100, 100);
 	-moz-box-shadow: 0 -5px 0px rgb(100, 100, 100);

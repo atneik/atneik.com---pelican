@@ -28,9 +28,9 @@ BRUSHED.listenerMenu = function(){
 		$(this).toggleClass('open');
 		
 		if ($('#mobile-nav').hasClass('open')) {
-			$('#navigation-mobile').slideDown(500, 'easeOutExpo');
+			$('#navigation-mobile').slideDown(250, 'easeOutExpo');
 		} else {
-			$('#navigation-mobile').slideUp(500, 'easeOutExpo');
+			$('#navigation-mobile').slideUp(250, 'easeOutExpo');
 		}
 		e.preventDefault();
 	});
