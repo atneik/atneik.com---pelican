@@ -5,7 +5,13 @@ Category: Studio
 Tags: prototyping
 Slug: paper-prototyping-wearable-uis
 Author: Aniket Handa
-Summary: “Wearables are the future!”, as deemed by majority of futurist. Together with a smartphone they can provide altogether new experiences. Here we choose a Smartwatch as the wearable and try to understand the interplay between the two devices. The accessibility of a Smartwatch and low friction involved in using it can be exploited to provide omnipresent computing. This week long endeavour used the technique of paper prototyping to quickly iterate over various designs possible for a Fitness App. The App helps user create routines in a smartphone and then help them follow the same while working out though the smartwatch as a medium. The system is named Gym Mate.
+Summary: During this week long assignment we explore the interplay of a smartwatch and a smartphone... 
+
+##Summary
+
+“Wearables are the future!”, as deemed by majority of futurist. Together with a smartphone they can provide altogether new experiences. Here we choose a Smartwatch as the wearable and try to understand the interplay between the two devices. The accessibility of a Smartwatch and low friction involved in using it can be exploited to provide omnipresent computing. This week long endeavour used the technique of paper prototyping to quickly iterate over various designs possible for a Fitness App. The App helps user create routines in a smartphone and then help them follow the same while working out though the smartwatch as a medium. The system is named Gym Mate.
+
+![image](https://dl.dropboxusercontent.com/u/23289062/siteImages/Studio/Q2/W2/1.jpg)
 
 ##Problem
 
@@ -83,6 +89,10 @@ All the testers and many other students appreciated the scroll functionality. Ea
 
 The final version of the application worked well. It was self-explanatory and users spend less time figuring out the usage. The interaction was predictable.
 
-The short 60-sec video of user testing was commended for editing and background sound, but it was regarded too fast to be able to concentrate on the interaction flow of the application (I 2xed it to show the complete interaction in 60-secs). 
+The short 60-sec video of user testing was commended for editing and background sound, but it was regarded too fast to be able to concentrate on the interaction flow of the application (I 2xed it to show the complete interaction in 60-seconds limit). Signing off with the video..
 
-![image](https://dl.dropboxusercontent.com/u/23289062/siteImages/Studio/Q2/W2/1.jpg)
+
+<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+<iframe width="100%" height="100%" src="//www.youtube.com/embed/MOZ3ZuVZ0nQ?rel=0&controls=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<br />

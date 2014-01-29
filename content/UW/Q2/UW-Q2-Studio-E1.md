@@ -5,7 +5,7 @@ Category: Studio
 Tags: prototyping
 Slug: paper-prototyping-coffee-shop-app
 Author: Aniket Handa
-Summary: On the first session of prototyping studio we design and paper prototype an App used for ordering coffee at a Cafe using a Tablet.
+Summary: On the first session of prototyping studio we design and paper prototype an App used to be used for ordering coffee at a Cafe...
 
 This quarter is going to be exciting! As the Studio deals with the most waited phase of the process i.e. Prototyping. We start the first studio session by paper prototyping an Tablet App for ordering coffee at a Cafe. The project was narrowed to include only three kinds of coffee (Espresso, Macchiato and Cappuccino) coming in three different sizes. So, a total of nine offerings.
 
