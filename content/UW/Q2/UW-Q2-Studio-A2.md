@@ -118,6 +118,13 @@ The forth and the last prototype tried to combine the push button for running th
 And the whole Family together.
 
 ![image](https://dl.dropboxusercontent.com/u/23289062/siteImages/Studio/Q2/W3/23.jpg)
+
+The 60-sec video of user testing:
+
+<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+<iframe width="100%" height="100%" src="//www.youtube.com/embed/87zVHrKSzU0?rel=0&controls=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<br />
  
 ##Analysis
 

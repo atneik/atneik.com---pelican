@@ -732,8 +732,8 @@ article {
 .item-thumbs {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 2%;
-	margin-left: 2%;
+	margin-bottom: 20px;
+	margin-left: 20px;
 	cursor: pointer;
 	
 	color: white;
